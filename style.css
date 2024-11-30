@@ -252,9 +252,22 @@
     font-size: 40px;
 }
 
+.skills img{
+    transition: all ease 600ms;
+    margin-bottom: 40px;
+    /* border-radius: 50%; */
+}
+
+.skills img:hover{
+    transform: scale(1.4);
+}
+
 
 .tools img{
     width: 60px;
+}
+.tools img:hover{
+    transform: scale(1.4);
 }
 .html h3{
     font-weight: 300;
@@ -335,6 +348,14 @@
 .contact{
     margin-top: 20px;
     padding: 10px 10%;
+}
+
+.contact img{
+    transition: all ease 600ms;
+}
+
+.contact img:hover{
+    transform: scale(1.6);
 }
 .con h1{
     color: orangered;
