@@ -81,6 +81,7 @@
 .coverpic img{
     width: 500px;
     transition: all ease 600ms;
+    border-radius: 50%;
 }
 .coverpic img:hover{
     transform: scale(1.1);
